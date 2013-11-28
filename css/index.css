@@ -1,0 +1,91 @@
+html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 20px 0 0 0;
+    width: 100%;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 20px;
+    background-color: #E0EEEE;
+}
+
+.page {
+    width: 600px;
+    padding: 20px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    position: relative;
+    left: 50%;
+    margin-left: -300px;
+    background-color: #FAFFFA;
+}
+
+.page header {
+    font-size: small;
+    position: absolute;
+    right: 25px;
+}
+
+.message {
+    width: 300px;
+    border: 1px solid #000;
+    padding: 20px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    position: relative;
+    left: 50%;
+    margin-left: -150px;
+}
+
+.login {
+    text-align: center;
+}
+
+.login .userplace input {
+    width: 200px;
+}
+
+.error {
+    color: #9F0006;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.success {
+    color: #0045BF;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.error a, .success a {
+    display: block;
+    font-size: 0.5em;
+}
+
+table {
+    font-family: "Helvetica Neue", Helvetica, "Hiragino Sans GB", Arial, sans-serif;
+    line-height: 20px;
+    font-size: 15px;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+table td {
+    border: 1px solid #708090;
+    width: 130px;
+}
+
+#showForm {
+    width: 80px;
+    margin-top: 5px;
+}
+
+table input {
+    width: 100px;
+}
